@@ -6,14 +6,14 @@
         font-size: 55%;
     }
 
-    .home .container{
+    .container{
         width: 900px;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 959px){
 
-    .home .container{
+    .container{
         width: 710px;
     }
 }
@@ -24,7 +24,7 @@
         font-size: 50%;
     }
 
-    .home .container{
+    .container{
         width: 280px;
     }
 }

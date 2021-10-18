@@ -7,11 +7,6 @@
     padding: 20rem 0;
 }
 
-.home .container{
-    width: 117rem;
-    margin: 0 auto;
-}
-
 .home .container h2{
     color: #fff;
     font-size: 4.4rem;
@@ -42,6 +37,7 @@
     background: var(--RED);
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
+    position: relative;
 }
 
 .home .container a:hover{
