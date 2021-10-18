@@ -21,3 +21,30 @@
 .home .container h2 strong{
     font-size: 5.2rem;
 }
+
+.home .container p{
+    font-size: 1.9rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+    color: #999999;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+.home .container a{
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 1rem 1.8rem 1.2rem;
+    border-radius: .3rem;
+    border: 0.1rem solid #000;
+    color: #fff;
+    font-size: 1.8rem;
+    background: var(--RED);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+.home .container a:hover{
+    background: #fff;
+    color: var(--RED);
+}
