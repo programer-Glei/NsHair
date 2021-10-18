@@ -1,14 +1,50 @@
 
-header .header-1, header .header-1{
+header .header-1, header .header-2{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     z-index: 1000;
+}
+
+header .header-1{
     background-color: rgb(19, 19, 19);
+    padding: 0.8rem;
 }
 
 header .header-1 a img{
     width: 14rem;
     height: 6rem;
+}
+
+header .header-2{
+    background-color: rgb(40, 40, 40);
+    padding: 1.4rem;
+}
+
+header .header-2 #menu{
+    font-size: 3rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+header .header-2 .navbar ul{
+    display: flex;
+    align-items: center;
+}
+
+header .header-2 .navbar ul li{
+    margin: 0 2.5rem;
+}
+
+header .header-2 .navbar ul li a{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+header .header-2 .navbar ul li a:hover,
+header .header-2 .navbar ul li a.active{
+    color: #e32c2e;
 }

@@ -5,8 +5,12 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    transition: all 300ms linear;
 }
 
 html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
     font-size: 62.5%;
 }
