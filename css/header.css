@@ -17,6 +17,12 @@ header .header-1 a img{
     height: 6rem;
 }
 
+header .header-2 a img{
+    width: 13rem;
+    height: 5rem;
+    display: none;
+}
+
 header .header-2{
     background-color: rgb(40, 40, 40);
     padding: 1.4rem;

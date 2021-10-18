@@ -1,0 +1,22 @@
+.home{
+    min-height: 100vh;
+    background-image: url(../images/capa.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    padding: 20rem 0;
+}
+
+.home .container{
+    width: 117rem;
+    margin: 0 auto;
+}
+
+.home .container h2{
+    color: #fff;
+    font-size: 4.4rem;
+    font-weight: 100;
+}
+
+.home .container h2 strong{
+    font-size: 5.2rem;
+}
