@@ -102,3 +102,31 @@
     padding: 2rem 0;
     background: rgba(0, 0, 0, 0.4);
 }
+
+.home .home-rodape ul{
+    display: flex;
+    align-items: center;
+}
+
+.home .home-rodape ul li{
+    color: #999999;
+    display: flex;
+    align-items: center;
+    margin: 0 2rem;
+    font-size: 1.6rem;
+}
+
+.home .home-rodape ul li i{
+    font-size: 2.2rem;
+    color: #fff;
+    margin: 1rem;
+}
+
+.home .home-rodape ul li span{
+    color: #fff;
+    margin: 0.5rem;
+}
+
+.fa-clock-o:before {
+    content: "\f017";
+}
