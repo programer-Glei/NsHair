@@ -5,6 +5,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     padding: 20rem 0;
+    position: relative;
 }
 
 .home .container h2{
@@ -92,4 +93,12 @@
 .home .container a:hover{
     background: #fff;
     color: var(--RED);
+}
+
+.home .home-rodape{
+    width: 100%;
+    position: absolute;
+    left: 0; bottom: 0;
+    padding: 2rem 0;
+    background: rgba(0, 0, 0, 0.4);
 }
