@@ -22,6 +22,7 @@ html{
 
 body{
     background: var(--black);
+    font-family: 'Roboto Slab', serif;
 }
 
 .container{
