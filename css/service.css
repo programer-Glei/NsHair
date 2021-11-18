@@ -4,18 +4,6 @@
     padding: 10rem 9%;
 }
 
-.services .service-title{
-    margin: 0 auto;
-    text-align: center;
-}
-
-.services .service-title h2{
-    font-size: 4.5rem;
-    color: #282828;
-    font-weight: 100;
-    font-family: 'Roboto Slab', serif;
-}
-
 .services .box-container{
     margin-top: 3rem;
     display: flex;

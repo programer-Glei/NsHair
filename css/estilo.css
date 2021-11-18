@@ -29,3 +29,15 @@ body{
     width: 117rem;
     margin: 0 auto;
 }
+
+.service-title{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.service-title h2{
+    font-size: 4.5rem;
+    color: #282828;
+    font-weight: 100;
+    font-family: 'Roboto Slab', serif;
+}
