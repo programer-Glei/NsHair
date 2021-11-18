@@ -2,6 +2,14 @@
     padding: 10rem 9%;
 }
 
+.products .service-title h2{
+    color: #fff;
+}
+
+.products .products-slider{
+    margin-top: 3rem;
+}
+
 .products .products-slider .box{
     position: relative;
     text-align: center;
@@ -32,6 +40,7 @@
     font-size: 2.5rem;
     font-weight: normal;
     color: #fff;
+    margin-bottom: 1rem;
 }
 
 .products .products-slider .box .content .price{
@@ -43,5 +52,6 @@
 .products .products-slider .box .content .price span{
     font-size: 1.5rem;
     font-weight: normal;
-    color: var(--main-color);
+    color: var(--RED);
     text-decoration: line-through;
+}
