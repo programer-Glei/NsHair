@@ -1,1 +1,47 @@
+.products{
+    padding: 10rem 9%;
+}
 
+.products .products-slider .box{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.products .products-slider .box .image{
+    height: 40rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.products .products-slider .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.products .products-slider .box:hover .image img{
+    transform: scale(1.2);
+}
+
+.products .products-slider .box .content{
+    padding: 1rem 0;
+}
+
+.products .products-slider .box .content h3{
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #fff;
+}
+
+.products .products-slider .box .content .price{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.products .products-slider .box .content .price span{
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: var(--main-color);
+    text-decoration: line-through;
