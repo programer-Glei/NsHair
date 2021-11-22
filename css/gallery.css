@@ -8,6 +8,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
     gap: 2rem;
+    margin-top: 3rem;
 }
 
 .gallery .box-container .box{
