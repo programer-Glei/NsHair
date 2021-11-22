@@ -8,11 +8,11 @@
     margin-top: 3rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .services .box-container .box{
-    flex: 1 1 30rem;
+    flex: 1 1 33rem;
     border-radius: .5rem;
     padding: 1rem;
     text-align: center;
