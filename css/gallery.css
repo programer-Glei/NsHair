@@ -6,6 +6,19 @@
 
 .gallery .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
     gap: 2rem;
+}
+
+.gallery .box-container .box{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.gallery .box-container .box img{
+    height: 40rem;
+    width: 100%;
+    border-radius: 0.7rem;
+    object-fit: cover;
 }
