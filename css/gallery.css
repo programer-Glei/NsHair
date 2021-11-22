@@ -1,0 +1,11 @@
+.gallery{
+    width: 100vw;
+    background-color: #fff;
+    padding: 10rem 9%;
+}
+
+.gallery .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
