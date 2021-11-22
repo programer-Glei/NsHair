@@ -11,14 +11,66 @@
 }
 
 .gallery .box-container .box{
+    width: 100%;
+    height: 40rem;
     position: relative;
     text-align: center;
     overflow: hidden;
 }
 
 .gallery .box-container .box img{
-    height: 40rem;
+    height: 100%;
     width: 100%;
     border-radius: 0.7rem;
     object-fit: cover;
+}
+
+.gallery .box-container .box .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.5),var(--RED));
+    opacity: 0;
+    transition: 1s;
+}
+
+.gallery .box-container .box:hover .overlay{
+    opacity: 1;
+}
+
+.gallery .box-container .box .service-desc{
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: 1s;
+}
+
+.gallery .box-container .box .service-desc h3{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.gallery .box-container .box .service-desc hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+}
+
+.gallery .box-container .box .service-desc p{
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #fff;
+}
+
+.gallery .box-container .box:hover .service-desc{
+    bottom: 40%;
+    opacity: 1;
 }
