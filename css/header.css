@@ -7,6 +7,10 @@ header .header-1, header .header-2{
     z-index: 1000;
 }
 
+header .header-1.active{
+    display: none;
+}
+
 header .header-1{
     background-color: rgb(19, 19, 19);
     padding: 0.8rem;
@@ -21,6 +25,10 @@ header .header-2 a img{
     width: 13rem;
     height: 5rem;
     display: none;
+}
+
+header .header-2.header-2.active a img{
+    display: block;
 }
 
 header .header-2{
@@ -38,6 +46,8 @@ header .header-2 #menu{
 header .header-2.active{
     position: fixed;
     justify-content: space-between;
+    padding: 1rem 12%;
+    border-bottom: 1px solid var(--RED);
 }
 
 header .header-2 .navbar ul{
