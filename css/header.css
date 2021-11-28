@@ -35,6 +35,11 @@ header .header-2 #menu{
     display: none;
 }
 
+header .header-2.active{
+    position: fixed;
+    justify-content: space-between;
+}
+
 header .header-2 .navbar ul{
     display: flex;
     align-items: center;
