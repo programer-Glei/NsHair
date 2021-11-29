@@ -45,6 +45,10 @@
     header .header-2 .menu{
         display: block;
     }
+
+    .home .home-rodape ul{
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px){
@@ -77,6 +81,10 @@
     }
 
     header .header-2 .menu{
+        display: block;
+    }
+
+    .home .home-rodape ul{
         display: block;
     }
 }
