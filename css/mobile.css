@@ -24,16 +24,39 @@
     }
 
     header .header-2{
+        position: relative;
         justify-content: space-between;
         padding-left: 10%;
         padding-right: 10%;
     }
 
     header .header-2 .navbar{
-        display: none;
+        position: absolute;
+        top: 100%; right: 0; left: 0;
     }
 
-    header .header-2 a{
+    header .header-2 .navbar ul{
+        position: absolute;
+        display: block;
+        top: 100%; right: 0; left: 0;
+        background: #333;
+        padding: 1rem 2rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header .header-2 .navbar ul.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    header .header-2 .navbar ul li{
+        display: block;
+        border-radius: .5rem;
+        padding: 1.5rem;
+        margin: 1.5rem;
+        background: #222;
+    }
+
+    header .header-2 a:nth-child(3){
         display: none;
     }
 
@@ -93,7 +116,7 @@
         background: #222;
     }
 
-    header .header-2 a{
+    header .header-2 a:nth-child(3){
         display: none;
     }
 
