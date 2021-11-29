@@ -61,13 +61,20 @@
     }
 
     header .header-2{
+        position: relative;
         justify-content: space-between;
         padding-left: 10%;
         padding-right: 10%;
     }
 
+    header .header-2 .navbar{
+        position: absolute;
+        top: 100%; right: 0; left: 0;
+    }
+
     header .header-2 .navbar ul{
         position: absolute;
+        display: block;
         top: 100%; right: 0; left: 0;
         background: #333;
         padding: 1rem 2rem;

@@ -1,6 +1,9 @@
 
 let altura = 0
 
+let menu = document.querySelector('#menu')
+let navbar = document.querySelector('.navbar ul')
+
 function mudarT(){
 	altura = window.innerHeight
 	
@@ -26,6 +29,11 @@ window.onscroll = () =>{
     }
 
 }
+
+menu.addEventListener('click', () =>{
+    navbar.classList.toggle('active')
+    console.log("chegou aqui")
+})
 
 
 let swiper1 = new Swiper(".products-slider",{
