@@ -22,8 +22,8 @@ header .header-1 a img{
 }
 
 header .header-2 a img{
-    width: 13rem;
-    height: 5rem;
+    width: 15rem;
+    height: 6rem;
     display: none;
 }
 
@@ -37,7 +37,14 @@ header .header-2{
 }
 
 header .header-2 #menu{
-    font-size: 3rem;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+header .header-2 .menu{
+    font-size: 1.5rem;
     color: #fff;
     cursor: pointer;
     display: none;
