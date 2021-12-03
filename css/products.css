@@ -22,6 +22,12 @@
     overflow: hidden;
 }
 
+.products .products-slider .box p{
+    margin-top: 1.5rem;
+    color: #fff;
+    font-size: 1.8rem;
+}
+
 .products .products-slider .box .image img{
     height: 100%;
     width: 100%;
