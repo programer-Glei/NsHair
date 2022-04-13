@@ -131,4 +131,9 @@
     .home .home-rodape ul{
         display: block;
     }
+
+    .robo img{
+        width: 340px;
+        height: 70px;
+    }
 }
